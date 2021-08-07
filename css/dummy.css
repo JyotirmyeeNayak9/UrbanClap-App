@@ -1,0 +1,101 @@
+
+/*.testBlock1{
+    width: 30%;
+    background-color: red;
+    margin: 5px;
+    height: 200px;
+    color: white;
+    float: left;
+}
+
+.testBlock2{
+    width: 30%;
+    background-color: white;
+    margin: 5px;
+    height: 200px;
+    color:black;
+    float: left;
+}
+
+.testBlock3{
+    width: 30%;
+    background-color: green;
+    margin: 5px;
+    height: 200px;
+    color: white;
+    float: left;
+}*/
+
+/*App section end here*/
+
+
+/*.appLeft{
+    width: 40%;
+    float: left;
+}
+
+.appRight{
+    width: 60%;
+    float: left;
+    text-align: right;
+
+}
+
+#appSection article div img{
+    height: 300px;
+    width: 240px;
+    margin: 20px 180px ;
+}
+
+.appRight h1{
+    font-size: 30px;
+    margin-right: 25%;
+}
+
+#appSection .appRight  p{
+    font-size:15px ;
+    margin-right: 25%;
+}
+
+
+#appSection .appRight  input{
+    margin-right: 50%;
+    te:50px;
+}
+
+#appSection .appRight input button{
+    margin-right: 40%;
+    float: left;
+}*/
+
+#testPositions{
+    background-color: yellow;
+    padding: 100px;
+    position: relative;
+}
+
+#testPositions div{
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#testPositions .test1{
+    background-color: green;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+}
+
+
+#testPositions .test2{
+    background-color: blueviolet;
+    
+}
+
+
+#testPositions .test3{
+    background-color: rgb(119, 37, 37);
+    
+}

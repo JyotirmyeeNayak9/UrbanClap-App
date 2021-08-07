@@ -1,0 +1,528 @@
+@import url('../fonts/awesome/css/all.css');
+
+
+body{
+    background-color:#eee;
+    margin: 0;
+    padding: 0;
+    font-family: axiforma-regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#headerBlock{
+    background: #fff;
+    padding: 10px;
+    height: 45px;}
+
+.leftBlock{
+    width: 70%;
+    float: left;
+}
+
+
+.rightBlock{
+    width: 30%;
+    float: left;
+    text-align: right;
+    line-height: 40px;
+}
+
+ #headerBlock article{
+     width: 1200px;
+     margin: 0 auto;
+ }
+
+ .logo img{
+     width: 290px;
+ }
+
+ .leftmenu ul,
+ .rightBlock ul{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .leftmenu ul li a,
+ .rightBlock ul li a{
+color:#666;
+text-decoration: none; 
+padding: 20px;
+font-weight: 600;
+}
+
+.leftmenu ul li{
+    display: inline-block;
+}
+
+.logo{
+    width: 40%;
+    /*background-color: red;*/
+    float: left;
+}
+
+.leftmenu{
+    width:60%;
+    float:left;
+    line-height: 40px;
+}
+
+/*Slider block css starts here*/
+#sliderBlock{
+    background:url(../images/ucsalon.jpg);
+    height: 390px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+#sliderBlock h1{
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+#sliderBlock article{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0;
+}
+
+
+
+#sliderBlock p{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#sliderBlock form select{
+    padding: 15px;
+    width: 170px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 30px;
+}
+
+
+#sliderBlock form input{
+    width: 400px;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.overlay{
+    background: rgba(77, 77, 77,0.5);
+    height: 390px;
+}
+
+/*After slide*/
+#afterSlider{
+    background-color: #eee;
+    height: 200px;
+}
+
+#afterSlider article{
+    width:1200px;
+    margin: 0 auto;
+}
+
+#afterSlider article div{
+     float: left;
+     width: 15%;
+     text-align: center;
+     padding: 36px 10px 0px;
+}
+
+#afterSlider article div h2{
+    font-size: 15px;
+     color: #666;
+}
+
+#afterSlider article div span i{
+    font-size: 40px;
+    color: #666;
+}
+
+/*services block*/
+
+#servicesBlock{
+    background-color: white;
+    clear: both;
+    height: 270px;
+    padding: 30px 0;
+}
+
+
+#servicesBlock article{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+#servicesBlock article div{
+    width: 24%;
+    float: left;
+    margin: 5px;
+}
+
+
+#servicesBlock article div img,
+#weddingServices article div img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+/*Weddding services*/
+#weddingServices{
+    clear: both;
+    background-color: #fff;
+    height: 270px;
+    padding:30px 0 ;
+}
+
+ 
+#weddingServices article{
+    width: 1200px;
+    margin: 0 auto;
+ }
+
+ 
+#weddingServices article div{
+    width:24%;
+    float: left;
+    margin: 10px;
+}
+
+#weddingServices article div h3,
+#servicesBlock article div h3{
+font-size: 14px;
+color: #343434;
+font-weight: 400;
+margin: 10px 0 0;
+}
+
+
+
+
+
+/*SHIFTING HOMES*/
+#shiftingHomes{
+    background-color: #fff;
+    clear: both;
+    height: 270px;
+    padding: 30px 0;
+    
+}
+
+#shiftingHomes article{
+    
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#shiftingHomes article div{
+    width: 24%;
+    float: left;
+    margin: 5px;
+}
+
+#shiftingHomes article div img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#shiftingHomes article div h3{
+    font-size: 14px;
+    color: #343434;
+    font-weight: 400;
+    margin: 10px 0 0;
+}                                      /*SHIFTING HOMES END HERE*/
+
+
+
+/*HEALTH AND WELNESS*/
+
+#healthWellness{
+    background-color: #fff;
+    clear: both;
+    height: 270px;
+    padding: 30px 0;
+}
+
+#healthWellness article{
+width: 1200px;
+margin: 0 auto;
+}
+
+
+#healthWellness article div{
+    width: 24%;
+    float: left;
+    margin: 5px;
+}
+
+
+#healthWellness article div img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+
+}                                                                  /*HEALTH AND WELLNESS END here*/
+
+
+/*MASSAGE AT HOME*/
+#massageatHome{
+    background-color: #fff;
+    clear: both;
+    height: 270px;
+    padding: 30px 0;
+}
+
+#massageatHome article{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#massageatHome article div{
+    width: 24%;
+    float: left;
+    margin: 10px;
+}
+
+
+#massageatHome article div img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}                                               /*MASSAGE AT HOME*/
+
+
+
+/*App section start here*/
+#appSection{
+    clear: both;
+    background-color: #fff;
+    
+}
+
+#appSection article{
+    width: 1200px;
+    margin: 0 auto;
+    height: 320px;
+    background-color: #eee;
+    padding: 40px 0;
+}                       
+
+
+
+#appSection article .appLeft{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+
+#appSection article .appRight{
+    text-align: left;
+    width: 55%;
+    float: left;
+}
+
+.appLeft img{
+    width: 220px;
+}
+
+.appRight h1{
+    font-size: 30px;
+    padding: 10px 0;
+    margin:  40px 0 0;
+}
+
+
+.appRight p{
+    color: #666;
+}
+
+
+.appRight form select{
+    padding: 19px 20px;
+    border: none;
+}
+
+
+.appRight form input{
+    padding: 20px;
+    width: 60%;
+    box-sizing: border-box ;
+    margin: 0;
+    border: none;
+}
+
+
+
+.appRight form button{
+    background-color: #111;
+    border-radius: 5px;
+    color: white;
+    padding: 13px 30px;
+    border: none;
+    position: absolute;
+    right: 167px;
+    top: 9px;
+}
+
+.appRight form{
+    position: relative;
+
+}    
+                               /*App section end here*/
+
+  /*AFTER APP SECTION*/
+
+#afterApp{
+background-color: white;
+height: 220px;
+clear: both;
+}
+
+#afterApp article div{
+    float: left;
+    margin: 80px;
+    padding: 0px 15px ; 
+}
+#afterApp .i{
+    size: 10px;
+}
+#afterApp .app2{
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+    
+
+}
+#afterApp div header{
+     text-align: left;
+     font-weight: bold;
+}
+#afterApp div footer{
+    color: #666;
+    text-align: left;
+    margin-top: 10px;
+}
+                                                     /*AFTER APP  SECTION END HERE*/
+
+
+
+/*-Nunber Figure*/
+#numFigure{
+    clear: both;
+    height: 200px;
+    margin-top: 0;
+    margin-right: 320px;
+    margin-left: 320px;
+
+    
+}
+
+#numFigure article {
+    
+    width: 1200px;
+    float: left;
+    
+    color: #666;
+    
+}
+
+#numFigure article div{
+    float: left;
+    padding: 60px;
+    text-align: center;
+
+}
+
+#numFigure article div header{
+    font-size: 60px;
+}
+
+
+#numFigure article div footer{
+    font-weight:bold;
+    font-size: 15px;
+}
+
+/*-Nunber Figure END HERE*/
+
+/*serviceProvider Start Here*************************/
+#serviceProvider{
+    background-color:rgb(77, 76, 76);
+    height: 150px;
+}
+
+#serviceProvider div{
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+
+#serviceProvider span a{
+    margin-left:120px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+/*serviceProvider end here*/
+
+
+/*last section start here*/
+#lastSection{
+    clear: both;
+    background-color: black;
+    color: white;
+}
+
+#lastSection article{
+    width: 1200px;
+    margin: 0 auto;
+    height: 550px;
+    padding: 40px 0;
+
+}
+
+
+#lastSection article span{
+    color: #666;;
+}
+
+#lastSection article header a{
+    text-decoration: none;
+    color: white;
+    margin: 13px;
+    
+}
+
+#lastSection article main a{
+    text-decoration: none;
+    color: white;
+    margin: 13px;
+    
+}
+
+
+#lastSection article footer .imga{
+    width: 30px;
+}
+
+
+/*Last section End here*/
